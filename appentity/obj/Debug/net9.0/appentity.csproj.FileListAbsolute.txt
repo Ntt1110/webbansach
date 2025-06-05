@@ -1,0 +1,12 @@
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\bin\Debug\net9.0\appentity.deps.json
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\bin\Debug\net9.0\appentity.dll
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\bin\Debug\net9.0\appentity.pdb
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\appentity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\appentity.AssemblyInfoInputs.cache
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\appentity.AssemblyInfo.cs
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\appentity.csproj.CoreCompileInputs.cache
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\appentity.sourcelink.json
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\appentity.dll
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\refint\appentity.dll
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\appentity.pdb
+C:\Users\Trung\Desktop\c#\MyAppSolution\appentity\obj\Debug\net9.0\ref\appentity.dll
