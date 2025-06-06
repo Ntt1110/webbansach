@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0-windows7.0": {
+      "app.control/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "app.data": "1.0.0",
+          "appentity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/app.control.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/app.control.dll": {}
+        }
+      },
+      "app.data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "appentity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/app.data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/app.data.dll": {}
+        }
+      },
+      "appentity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/appentity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/appentity.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "app.control/1.0.0": {
+      "type": "project",
+      "path": "../app.control/app.control.csproj",
+      "msbuildProject": "../app.control/app.control.csproj"
+    },
+    "app.data/1.0.0": {
+      "type": "project",
+      "path": "../app.data/app.data.csproj",
+      "msbuildProject": "../app.data/app.data.csproj"
+    },
+    "appentity/1.0.0": {
+      "type": "project",
+      "path": "../appentity/appentity.csproj",
+      "msbuildProject": "../appentity/appentity.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0-windows7.0": [
+      "app.control >= 1.0.0",
+      "appentity >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Trung\\.nuget\\packages\\": {},
@@ -29,7 +86,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net9.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -37,9 +94,16 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {}
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj": {
+              "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj"
+            },
+            "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj": {
+              "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -55,8 +119,8 @@
       "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -71,6 +135,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"

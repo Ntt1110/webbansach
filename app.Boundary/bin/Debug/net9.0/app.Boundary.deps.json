@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "app.Boundary/1.0.0": {
+        "runtime": {
+          "app.Boundary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "app.Boundary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

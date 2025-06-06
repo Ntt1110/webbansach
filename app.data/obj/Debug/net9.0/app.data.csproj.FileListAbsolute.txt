@@ -1,0 +1,6 @@
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.data\obj\Debug\net9.0\app.data.csproj.AssemblyReference.cache
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.data\obj\Debug\net9.0\app.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.data\obj\Debug\net9.0\app.data.AssemblyInfoInputs.cache
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.data\obj\Debug\net9.0\app.data.AssemblyInfo.cs
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.data\obj\Debug\net9.0\app.data.csproj.CoreCompileInputs.cache
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.data\obj\Debug\net9.0\app.data.sourcelink.json

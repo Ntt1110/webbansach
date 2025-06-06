@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>v4.7.2</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\app.Boundary\app.Boundary.csproj" />
+    <ProjectReference Include="..\app.data\app.data.csproj" />
     <ProjectReference Include="..\appentity\appentity.csproj" />
   </ItemGroup>
 

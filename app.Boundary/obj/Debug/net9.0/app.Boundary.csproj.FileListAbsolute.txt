@@ -1,0 +1,12 @@
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\bin\Debug\net9.0\app.Boundary.deps.json
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\bin\Debug\net9.0\app.Boundary.dll
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\bin\Debug\net9.0\app.Boundary.pdb
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\app.Boundary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\app.Boundary.AssemblyInfoInputs.cache
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\app.Boundary.AssemblyInfo.cs
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\app.Boundary.csproj.CoreCompileInputs.cache
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\app.Boundary.sourcelink.json
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\app.Boundary.dll
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\refint\app.Boundary.dll
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\app.Boundary.pdb
+C:\Users\Trung\Desktop\c#\MyAppSolution\app.Boundary\obj\Debug\net9.0\ref\app.Boundary.dll

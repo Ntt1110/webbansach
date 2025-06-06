@@ -80,12 +80,14 @@
 
         public Product(int productId, string name, decimal price, string description)
         {
-            ProductId = productId;
-            Name = name;
-            Price = price;
-            Description = description;
+            this.ProductId = productId;
+           this. Name = name;
+            this.Price = price;
+            this.Description = description;
         }
+        public Product() { }
     }
+}
 
     // Lớp Cart
     public class Cart
@@ -127,6 +129,7 @@
         public List<OrderItem> Items { get; set; }
         public string Status { get; set; }
         public DateTime CreatedAt { get; set; }
+        public int Id { get; set; }
 
         public Order(int customerId)
         {
@@ -134,6 +137,10 @@
             Items = new List<OrderItem>();
             Status = "Pending";
             CreatedAt = DateTime.Now;
+        }
+
+        public Order()
+        {
         }
     }
 

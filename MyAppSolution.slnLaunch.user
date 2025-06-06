@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "quanlisach\\quanlisach.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "appentity\\appentity.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "app.Boundary\\app.Boundary.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "app.control\\app.control.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

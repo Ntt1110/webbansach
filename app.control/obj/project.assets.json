@@ -2,14 +2,17 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "app.Boundary/1.0.0": {
+      "app.data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "appentity": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/app.Boundary.dll": {}
+          "bin/placeholder/app.data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/app.Boundary.dll": {}
+          "bin/placeholder/app.data.dll": {}
         }
       },
       "appentity/1.0.0": {
@@ -25,10 +28,10 @@
     }
   },
   "libraries": {
-    "app.Boundary/1.0.0": {
+    "app.data/1.0.0": {
       "type": "project",
-      "path": "../app.Boundary/app.Boundary.csproj",
-      "msbuildProject": "../app.Boundary/app.Boundary.csproj"
+      "path": "../app.data/app.data.csproj",
+      "msbuildProject": "../app.data/app.data.csproj"
     },
     "appentity/1.0.0": {
       "type": "project",
@@ -38,7 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "app.Boundary >= 1.0.0",
+      "app.data >= 1.0.0",
       "appentity >= 1.0.0"
     ]
   },
@@ -75,8 +78,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\app.Boundary.csproj": {
-              "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\app.Boundary.csproj"
+            "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\app.data.csproj": {
+              "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\app.data.csproj"
             },
             "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj": {
               "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj"

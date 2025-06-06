@@ -4,14 +4,14 @@
     "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\app.Boundary.csproj": {
+    "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\app.Boundary.csproj",
-        "projectName": "app.Boundary",
-        "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\app.Boundary.csproj",
+        "projectUniqueName": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj",
+        "projectName": "app.control",
+        "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj",
         "packagesPath": "C:\\Users\\Trung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\obj\\",
+        "outputPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,7 +32,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\app.data.csproj": {
+                "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\app.data.csproj"
+              },
+              "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj": {
+                "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -70,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj": {
+    "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\app.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj",
-        "projectName": "app.control",
-        "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\app.control.csproj",
+        "projectUniqueName": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\app.data.csproj",
+        "projectName": "app.data",
+        "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\app.data.csproj",
         "packagesPath": "C:\\Users\\Trung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.control\\obj\\",
+        "outputPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,9 +106,6 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\app.Boundary.csproj": {
-                "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\app.Boundary\\app.Boundary.csproj"
-              },
               "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj": {
                 "projectPath": "C:\\Users\\Trung\\Desktop\\c#\\MyAppSolution\\appentity\\appentity.csproj"
               }
